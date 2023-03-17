@@ -2446,7 +2446,7 @@ Game.Launch=function()
 		
 		Game.externalDataLoaded=false;
 		
-		Game.grandmaNames=['Granny','Gusher','Ethel','Edna','Doris','Maud','Hilda','Gladys','Michelle','Michele','Phyllis','Millicent','Muriel','Myrtle','Mildred','Mavis','Helen','Gloria','Sheila','Betty','Gertrude','Agatha','Beryl','Agnes','Pearl','Precious','Ruby','Vera','Bonnie','Ada','Bunny','Cookie','Darling','Gaga','GamGam','Memaw','Mimsy','Peanut','Nana','Nan','Tootsie','Warty','Stinky','Heinous'];
+		Game.grandmaNames=['horse'];
 		Game.customGrandmaNames=[];
 		Game.heralds=0;
 		
@@ -5629,7 +5629,7 @@ Game.Launch=function()
 						'Dough elasticity halved for 66 seconds!',
 						'Golden cookie shininess doubled for 3 seconds!',
 						'World economy halved for 30 seconds!',
-						'Grandma kisses 23% stingier for 45 seconds!',
+						'Horse kisses 23% stingier for 45 seconds!',
 						'Thanks for clicking!',
 						'Fooled you! This one was just a test.',
 						'Golden cookies clicked +1!',
@@ -8011,7 +8011,7 @@ Game.Launch=function()
 					var synergiesWith={};
 					var synergyBoost=0;
 					
-					if (me.name=='Grandma')
+					if (me.name=='Horse')
 					{
 						for (var i in Game.GrandmaSynergies)
 						{
@@ -8319,7 +8319,7 @@ Game.Launch=function()
 					if (this.mouseOn)
 					{
 						var selected=-1;
-						if (this.name=='Grandma')
+						if (this.name=='Horse')
 						{
 							//mouse detection only fits grandma sprites for now
 							var marginW=-18;
@@ -8356,7 +8356,7 @@ Game.Launch=function()
 					{
 						var pic=this.pics[i];
 						var sprite=Pic(pic.pic);
-						if (selected==i && this.name=='Grandma')
+						if (selected==i && this.name=='Horse')
 						{
 							ctx.font='14px Merriweather';
 							ctx.textAlign='center';
@@ -10583,7 +10583,7 @@ Game.Launch=function()
 			{pic:'bgWhite',name:'White',icon:[23,21]},
 			{pic:'bgBlack',name:'Black',icon:[24,21]},
 			{pic:'bgGold',name:'Gold',icon:[25,21]},
-			{pic:'grandmas1',name:'Grandmas',icon:[26,21]},
+			{pic:'grandmas1',name:'Horse',icon:[26,21]},
 			{pic:'grandmas2',name:'Displeased grandmas',icon:[27,21]},
 			{pic:'grandmas3',name:'Angered grandmas',icon:[28,21]},
 			{pic:'bgMoney',name:'Money',icon:[29,21]},
