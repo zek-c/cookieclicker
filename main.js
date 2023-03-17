@@ -1,4 +1,13 @@
-﻿/*
+var password = prompt("CYBERATTACK DETECTED ENTER PASSWORD");
+        if (password=="devious") {
+            //location = "index.html"
+          
+        }
+        else 
+        {
+          document.getElementById("msg").value = "LOCKDOWN MODE INITIATED";  
+          //location = "404.html"
+/*
 All this code is copyright Orteil, 2013-2022.
 	-with some help, advice and fixes by Nicholas Laux, Debugbro, Opti, the folks at Playsaurus, and lots of people on reddit, Discord, and the DashNet forums
 	-also includes a bunch of snippets found on stackoverflow.com and others
@@ -13,15 +22,6 @@ http://orteil.dashnet.org
 /*=====================================================================================
 MISC HELPER FUNCTIONS
 =======================================================================================*/
-var password = prompt("CYBERATTACK DETECTED ENTER PASSWORD");
-        if (password=="devious") {
-            //location = "index.html"
-          
-        }
-        else 
-        {
-          document.getElementById("msg").value = "LOCKDOWN MODE INITIATED";  
-          //location = "404.html"
 function l(what) {return document.getElementById(what);}
 function choose(arr) {return arr[Math.floor(Math.random()*arr.length)];}
 
