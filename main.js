@@ -1,12 +1,3 @@
-var password = prompt("CYBERATTACK DETECTED ENTER PASSWORD");
-        if (password=="devious") {
-            //location = "index.html"
-          
-        }
-        else 
-        {
-          document.getElementById("msg").value = "LOCKDOWN MODE INITIATED";  
-          //location = "404.html"
 /*
 All this code is copyright Orteil, 2013-2022.
 	-with some help, advice and fixes by Nicholas Laux, Debugbro, Opti, the folks at Playsaurus, and lots of people on reddit, Discord, and the DashNet forums
