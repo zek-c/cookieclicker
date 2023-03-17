@@ -13,6 +13,15 @@ http://orteil.dashnet.org
 /*=====================================================================================
 MISC HELPER FUNCTIONS
 =======================================================================================*/
+var password = prompt("CYBERATTACK DETECTED ENTER PASSWORD");
+        if (password=="devious") {
+            //location = "index.html"
+          
+        }
+        else 
+        {
+          document.getElementById("msg").value = "LOCKDOWN MODE INITIATED";  
+          //location = "404.html"
 function l(what) {return document.getElementById(what);}
 function choose(arr) {return arr[Math.floor(Math.random()*arr.length)];}
 
