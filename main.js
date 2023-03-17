@@ -7379,17 +7379,17 @@ Game.Launch=function()
 			if (list.length==0)
 			{
 				if (loreProgress<=0) list.push(loc("You feel like making cookies. But nobody wants to eat your cookies."));
-				else if (loreProgress<=1) list.push(loc("Your first batch goes to the trash. The neighborhood raccoon barely touches it."));
-				else if (loreProgress<=2) list.push(loc("Your family accepts to try some of your cookies."));
-				else if (loreProgress<=3) list.push(loc("Your cookies are popular in the neighborhood."),loc("People are starting to talk about your cookies."));
-				else if (loreProgress<=4) list.push(loc("Your cookies are talked about for miles around."),loc("Your cookies are renowned in the whole town!"));
-				else if (loreProgress<=5) list.push(loc("Your cookies bring all the boys to the yard."),loc("Your cookies now have their own website!"));
+				else if (loreProgress<=1) list.push(loc("Your first batch goes to the trash. The neighborhood horse barely touches it."));
+				else if (loreProgress<=2) list.push(loc("Your pet horse accepts to try some of your cookies."));
+				else if (loreProgress<=3) list.push(loc("Your cookies are popular in the horse pens."),loc("Horses are starting to neigh about your cookies."));
+				else if (loreProgress<=4) list.push(loc("Your cookies are neighed about for 10 barns around."),loc("Your cookies are renowned in the whole town!"));
+				else if (loreProgress<=5) list.push(loc("Your cookies bring all the horses to the barn."),loc("Your cookies now have their own website!"));
 				else if (loreProgress<=6) list.push(loc("Your cookies are worth a lot of money."),loc("Your cookies sell very well in distant countries."));
-				else if (loreProgress<=7) list.push(loc("People come from very far away to get a taste of your cookies."),loc("Kings and queens from all over the world are enjoying your cookies."));
+				else if (loreProgress<=7) list.push(loc("Horses come from very far away to get a taste of your cookies."),loc("Kings and queens from all over the world are enjoying your cookies."));
 				else if (loreProgress<=8) list.push(loc("There are now museums dedicated to your cookies."),loc("A national day has been created in honor of your cookies."));
 				else if (loreProgress<=9) list.push(loc("Your cookies have been named a part of the world wonders."),loc("History books now include a whole chapter about your cookies."));
 				else if (loreProgress<=10) list.push(loc("Your cookies have been placed under government surveillance."),loc("The whole planet is enjoying your cookies!"));
-				else if (loreProgress<=11) list.push(loc("Strange creatures from neighboring planets wish to try your cookies."),loc("Elder gods from the whole cosmos have awoken to taste your cookies."));
+				else if (loreProgress<=11) list.push(loc("Strange creatures from neighboring planets wish to try your cookies."),loc("Elder horses from the whole cosmos have awoken to taste your cookies."));
 				else if (loreProgress<=12) list.push(loc("Beings from other dimensions lapse into existence just to get a taste of your cookies."),loc("Your cookies have achieved sentience."));
 				else if (loreProgress<=13) list.push(loc("The universe has now turned into cookie dough, to the molecular level."),loc("Your cookies are rewriting the fundamental laws of the universe."));
 				else if (loreProgress<=14) list.push(loc("A local news station runs a 10-minute segment about your cookies. Success!<br><small>(you win a cookie)</small>"),loc("it's time to stop playing"));
