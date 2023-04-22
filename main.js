@@ -1883,6 +1883,9 @@ Game.Launch=function()
 		else Game.Loader.loaded=callback;
 		Game.Loader.Load(['filler.png']);
 	}
+	Game.ErrorFrame=function()
+	{console.log("get bypassed cookie nerds")
+	}
 	Game.timedout=false;
 	Game.Timeout=function()
 	{
